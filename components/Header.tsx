@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
               onClick={() => handleNav('join')}
               className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-lg font-semibold text-sm transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
             >
-              Start Your Deal
+              Join the Insider List
             </button>
           </div>
 
@@ -81,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
                 onClick={() => handleNav('join')}
                 className="w-full bg-emerald-600 text-white py-3.5 rounded-xl font-bold text-center mt-2 shadow-md active:scale-95 transition-transform"
               >
-                Start Your Deal
+                Join the Insider List
               </button>
             </div>
           </motion.div>
