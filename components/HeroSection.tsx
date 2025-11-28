@@ -56,7 +56,7 @@ export const HeroSection: React.FC<HeroProps> = ({ onCtaClick }) => {
                 onClick={onCtaClick}
                 className="w-full sm:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-emerald-500/30 transition-all flex items-center justify-center gap-2 group"
               >
-                Start Your Deal
+                Join the Insider List
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
               
